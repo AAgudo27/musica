@@ -26,7 +26,7 @@
            while($cont < count($arrayfacturas)) {
       
               echo '<tr>';
-              echo '<td>'.$arrayfacturas[$cont]['prueba'].'</td><td>'.$arrayfacturas[$cont]['customerid'].'</td><td>'.$arrayfacturas[$cont]['invoicedate'].'</td><td>'.$arrayfacturas[$cont]['total'].'</td><td>'.$arrayfacturas[$cont]['invoicelineID'].'</td><td>'.$arrayfacturas[$cont]['trackid'].'</td><td>'.$arrayfacturas[$cont]['unitprice'].'</td>';
+              echo '<td>'.$arrayfacturas[$cont]['InvoiceId'].'</td><td>'.$arrayfacturas[$cont]['CustomerId'].'</td><td>'.$arrayfacturas[$cont]['InvoiceDate'].'</td><td>'.$arrayfacturas[$cont]['Total'].'</td><td>'.$arrayfacturas[$cont]['InvoiceLineId'].'</td><td>'.$arrayfacturas[$cont]['TrackId'].'</td><td>'.$arrayfacturas[$cont]['UnitPrice'].'</td>';
                 echo '</tr>';
 
                 $cont++;
