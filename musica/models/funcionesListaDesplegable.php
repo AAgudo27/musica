@@ -10,7 +10,7 @@ function nombrecancion($db,$codigo){
       $count = mysqli_num_rows($result);
 
      
-    return $row['name'];
+    return $row['Name'];
 }
 
 
