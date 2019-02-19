@@ -26,7 +26,7 @@
            while($cont < count($arrayfechas)) {
       
               echo '<tr>';
-              echo '<td>'.$arrayfechas[$cont]['invoiceid'].'</td><td>'.$arrayfechas[$cont]['customerid'].'</td><td>'.$arrayfechas[$cont]['invoicedate'].'</td><td>'.$arrayfechas[$cont]['total'].'</td><td>'.$arrayfechas[$cont]['invoicelineID'].'</td><td>'.$arrayfechas[$cont]['trackid'].'</td><td>'.$arrayfechas[$cont]['unitprice'].'</td>';
+              echo '<td>'.$arrayfechas[$cont]['InvoiceId'].'</td><td>'.$arrayfechas[$cont]['CustomerId'].'</td><td>'.$arrayfechas[$cont]['InvoiceDate'].'</td><td>'.$arrayfechas[$cont]['Total'].'</td><td>'.$arrayfechas[$cont]['InvoiceLineId'].'</td><td>'.$arrayfechas[$cont]['TrackId'].'</td><td>'.$arrayfechas[$cont]['UnitPrice'].'</td>';
                 echo '</tr>';
 
                 $cont++;
