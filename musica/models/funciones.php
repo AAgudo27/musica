@@ -78,7 +78,7 @@ function nuevaInvoiceLine($db,$idline,$idinvoice,$cancion){
 
 function consultarFacturas($db,$cliente){
 
-	$sql="select Invoice.InvoiceId  ,Invoice.CustomerId,Invoice.InvoiceDate,Invoice.Total, InvoiceLine.InvoiceLineID,InvoiceLine.TrackId,InvoiceLine.UnitPrice from Invoice,InvoiceLine where Invoice.InvoiceId=InvoiceLine.InvoiceId and CustomerId=$cliente order by Invoice.InvoiceId ;";
+	$sql="select Invoice.InvoiceId  ,Invoice.CustomerId,Invoice.InvoiceDate,Invoice.Total, InvoiceLine.InvoiceLineId,InvoiceLine.TrackId,InvoiceLine.UnitPrice from Invoice,InvoiceLine where Invoice.InvoiceId=InvoiceLine.InvoiceId and CustomerId=$cliente order by Invoice.InvoiceId ;";
 
 	//echo $sql;
 	$result = mysqli_query($db,$sql);
