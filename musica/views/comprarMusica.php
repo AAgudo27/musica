@@ -14,13 +14,13 @@ require '../models/funcionesListaDesplegable.php';
 echo "<select name='cancion'>";
 
 
-$sql="select trackid , name  from track limit 500;";
+$sql="select TrackId , Name  from Track limit 500;";
 
 $sentencia=mysqli_query($db, $sql);
 
 	
 	while($linea=mysqli_fetch_assoc($sentencia)){
-		echo "<option value='".$linea['trackid']."'>".$linea['name'].' '.$linea['trackid']."</option>";
+		echo "<option value='".$linea['TrackId']."'>".$linea['Name'].' '.$linea['TrackId']."</option>";
 	}
 
 echo "</select>";
